@@ -27,10 +27,12 @@
 .ass__row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
 .ass__img {
     width: 300px;
     display: block;
+    padding: 20px;
 }
