@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .footer {
+    min-height: 50px;
+    background-color: #000;
+}
+
+.header-and-main-block {
+    flex: 1;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ass__img {
+    width: 300px;
+}
