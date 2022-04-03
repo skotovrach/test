@@ -10,29 +10,56 @@
     min-height: 100vh;
 }
 
+/* html, body, .wrapper {
+    width: 100%;
+} */
 .header, .footer {
     min-height: 50px;
     background-color: #000;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .header-and-main-block {
     flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     width: 1400px;
     margin: 0 auto;
+    background-color: rgb(37, 36, 36);
+    padding: 1rem;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .container {
+    flex: 1;
 }
 
 .ass__row {
     display: flex;
     justify-content: space-between;
+    /* align-items: flex-start; */
     flex-wrap: wrap;
+    align-content: flex-end;
 }
 
+.ass__cell {
+    width: 400px;
+}
 
 .ass__img {
-    width: 400px;
+    /* width: 400px; */
     display: block;
     padding: 20px;
+    width: 100%
 }
