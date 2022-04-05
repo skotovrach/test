@@ -29,9 +29,9 @@
 }
 
 .container {
-    width: 1400px;
+    width: 1100px;
     margin: 0 auto;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(66, 20, 20);
     padding: 1rem;
 }
 
@@ -45,16 +45,43 @@
     flex: 1;
 }
 
+.hero {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.hero__picture {
+    background-color: bisque;
+    /* object-fit: contain; */
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero__img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ROW */
+
 .ass__row {
     display: flex;
-    justify-content: space-between;
-    /* align-items: flex-start; */
+    justify-content: center;
     flex-wrap: wrap;
     align-content: flex-end;
+    jus
 }
 
 .ass__cell {
     width: 400px;
+}
+
+.ass__cell:nth-child(1) {
+    order: -20
+}
+
+.ass__cell:nth-child(5) {
+    order: -10;
 }
 
 .ass__img {
